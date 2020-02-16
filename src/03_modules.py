@@ -7,10 +7,12 @@ level operating system functionality.
 
 import sys
 # See docs for the sys module: https://docs.python.org/3.7/library/sys.html
-
+import fileinput
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
-
+print(sys.argv[0])
+for arg in sys.argv:
+    print(arg)
 # Print out the OS platform you're using:
 # YOUR CODE HERE
 
