@@ -1,0 +1,3 @@
+Hello, world
+Writing to bar right now
+this is amazing
